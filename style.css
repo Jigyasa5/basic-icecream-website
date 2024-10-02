@@ -683,6 +683,106 @@ button:hover,
     color: var(--main-color);
 }
 
+/* Contact Us Section */
+.contact {
+    background-color: black;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.contact .heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.contact .heading span {
+    color: #ff6b6b;
+}
+
+.contact .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact form .inputBox input[type="text"] {
+    margin-bottom: 10px; /* Adjust the gap between Name and Email */
+}
+
+
+.contact form {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.contact form h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff6b6b;
+}
+
+.contact form .inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contact form .inputBox input,
+.contact form .inputBox textarea {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1.rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.contact form .inputBox input:focus,
+.contact form .inputBox textarea:focus {
+    border-color: #ff6b6b;
+    outline: none;
+}
+
+.contact form .inputBox textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contact form .btn {
+    padding: 12px 25px;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact form .btn:hover {
+    background-color: #ff4081;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .contact .row {
+        flex-direction: column;
+    }
+    
+    .contact form {
+        margin-top: 20px;
+    }
+}
+
 /* ... existing code ... */
 
 /* Footer button hover effect */
